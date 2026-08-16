@@ -14,7 +14,7 @@ Written in the [Nygard format](https://cognitect.com/blog/2011/11/15/documenting
 
 | ADR | Decision | Status |
 |---|---|---|
-| 0000 | Record architecture decisions | — |
+| [0000](adr_0000-record-architecture-decisions.md) | Record architecture decisions | Accepted |
 | 0001 | Build from scratch vs fork | — |
 | 0002 | MVP shape | — |
 | 0003 | Ledger data model | — |
@@ -27,3 +27,5 @@ Written in the [Nygard format](https://cognitect.com/blog/2011/11/15/documenting
 | 0010 | Primary interface split | — |
 
 Status values: `Proposed` · `Accepted` · `Superseded by ADR-XXXX`
+
+A dash means the decision is identified but not yet written.

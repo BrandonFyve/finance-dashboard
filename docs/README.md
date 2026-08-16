@@ -6,8 +6,11 @@ Unchecked items don't exist yet.
 
 ## Decisions
 
-Ten numbered ADRs, in [`adr/`](adr/). These are the spine of the project — if you only read one thing here, read these.
+Numbered ADRs, in [`adr/`](adr/). These are the spine of the project — if you only read one thing here, read these.
 
+ADR-0000 records the decision to keep ADRs at all. Ten further decisions are already identified; they will be written when they are made.
+
+- [x] [ADR-0000](adr/adr_0000-record-architecture-decisions.md) — Record architecture decisions
 - [ ] ADR-0001 — Build from scratch vs fork
 - [ ] ADR-0002 — MVP shape
 - [ ] ADR-0003 — Ledger data model
@@ -42,7 +45,7 @@ Ten numbered ADRs, in [`adr/`](adr/). These are the spine of the project — if 
 
 ## Diagrams
 
-Five, in [`diagrams/`](diagrams/). Mermaid where possible, so they live in git and stay reviewable in diffs.
+Five, planned in [`diagrams/`](diagrams/). Mermaid where possible, so they live in git and stay reviewable in diffs. None are written yet.
 
 - [ ] `c4-context.md` — the system and everything it touches
 - [ ] `c4-container.md` — the deployable pieces and how they talk
@@ -54,6 +57,6 @@ Five, in [`diagrams/`](diagrams/). Mermaid where possible, so they live in git a
 
 ## Research
 
-[`research/`](research/) holds the competitive landscape review that seeded this project, plus verification notes.
+- [ ] `research/` — competitive landscape review that seeded this project, plus verification notes
 
-> Anything in `research/` is a **snapshot**, not current fact. Tax figures change at each Budget and aggregator terms shift fast. Check the date header before relying on anything in there.
+> Anything that lands in `research/` is a **snapshot**, not current fact. Tax figures change at each Budget and aggregator terms shift fast. Check the date header before relying on anything in there.
